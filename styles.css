@@ -1,0 +1,227 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fefefe, #f5f7fa);
+    color: #2e2e2e;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffeaa7;
+  }
+  
+  /* Hero Section */
+  .hero {
+  background-color: #ffffff; /* Clean white background */
+  color: #333333; /* Neutral dark gray text */
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #222222;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555555;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  background-color: #3f51b5;  /* Indigo Blue */
+  color: #ffffff;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #303f9f;  /* Darker Indigo on hover */
+  color: #ffffff;
+}
+
+
+  
+  /* Container */
+  .container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .container h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .container p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  /* Grid Section */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .grid-item {
+    padding: 1.5rem;
+    border-radius: 12px;
+    font-size: 1.15rem;
+    color: #2c2c2c;
+    transition: 0.3s ease;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about {
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  }
+  
+  .services {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+  }
+  
+  .blog {
+    background: linear-gradient(135deg, #84fab0, #8fd3f4);
+  }
+  
+  /* Form Styles */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+  }
+  
+  .form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-container p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .form-row {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-row label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    color: #333;
+  }
+  
+  .form-row input,
+  .form-row textarea {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-row input:focus,
+  .form-row textarea:focus {
+    border-color: #a29bfe;
+    box-shadow: 0 0 0 2px rgba(162, 155, 254, 0.2);
+    outline: none;
+  }
+  
+  button {
+    background-color: #6c5ce7;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #a29bfe;
+  }
+  
+  /* Feedback */
+  .error {
+    color: #d63031;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+  }
+  
+  .success {
+    color: #00b894;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+  }
+  
